@@ -1,0 +1,264 @@
+.smallP_advText{  width:50%;color: #fff}
+.smallP_advBigT{  padding-left: 27px; padding-right: 35px; padding-top: 13px; padding-bottom: 13px; font-size: 36px; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px;-o-border-radius:3px;}
+.smallP_advSmallT{ height: 63px; line-height: 63px; margin-top: 36px; margin-bottom: 77px; font-size: 22px; margin-left: 27px; text-shadow: 5px 5px 5px #361d00;
+}
+.smallP_contentWrap a{ color: #fff}
+.smallP_contentWrap{height:100%; background-repeat: no-repeat;position: relative;}
+.smallP_contentWrap .smallP_content_banner{ height: 559px; text-align: center;position: relative;}
+.smallP_two_dimension{ width: 422px;}
+.smallP_twoDimBox{ width: 196px; margin-top:146px; float: left; display: inline-block;text-align: center; background: #fff; border: 0px solid #c2bfbd; box-shadow: 0px 0px 5px #a2a19f}
+.smallP_twoDimBox p{ padding: 15px 22px;}
+.smallP_twoDimT{ padding-top: 10px; padding-bottom: 10px; background: #ff8903; color: #fff; font-size: 17px; text-align: center;}
+.smallP_adv{ height: 308px; background: url(../images/banner_footer0.jpg) center 0%;}
+
+.floaterPlugin{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    
+}
+.floaterPlugin canvas{
+    width:100%;
+    height:100%;
+}
+.rotatePluginWrap{
+    position: relative;
+    width:50%;
+    height:100%;
+}
+.rotatePlugin{
+    position: absolute;
+    width:400px;
+    height: 400px;
+    left:50%;
+    top:40%;
+    margin-top: -200px;
+    margin-left: -200px;
+    animation: rotate 120s infinite linear;
+}
+.rotatePlugin img{
+    width:100%;
+    height:100%;
+}
+.rotateLogo{
+    position: absolute;
+    width:78px;
+    height:78px;
+    left:50%;
+    top:40%;
+    margin-top: -39px;
+    margin-left: -39px;
+}
+.rotateLogo img{
+    width:100%;
+    height:100%;
+}
+.font-36{
+    font-size: 50px;
+}
+.font-18{
+    font-size: 20px;
+}
+.mt104{
+    margin-top: 104px;
+}
+.zhuce_button{
+    width:166px;
+    height:48px;
+    line-height: 48px;
+    color:#ffffff;
+    text-align: center;
+    background: #00c6a7;
+    border:0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.wave{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border:solid 1px white;
+    left:50%;
+    top:40%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+.wave:after{
+    border:solid 1px white;
+    transform: scale(.5);
+}
+.ripple{
+    animation:cir 8s both infinite linear;
+}
+@-webkit-keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+@-o-keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+@-moz-keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+@keyframes cir{
+    0%{
+        transform:scale(0.1);
+        opacity: 0;
+    }
+    60%{
+        transform:scale(0.2);
+        opacity: 0.5;
+    }
+    100%{transform:scale(1.2);
+        opacity: 0;
+    }
+}
+.tongji {
+    height: 116px;
+    background: #18354f;
+}
+.tongji ul{width:1000px;margin:0 auto; overflow: hidden;}
+.tongji ul li{padding:24px 44px;}
+.tjRight{padding: 0 20px;}
+.tjLeft{padding:12px 0;}
+.tjSize20{font-size: 20px;color:#b6c8d6;}
+.tjSize30{font-size: 30px;color:#b6c8d6;}
+.tedian{
+    height: 202px;
+    background: #f3f6fa;
+}
+.tedian ul{width:1000px;margin:0 auto; overflow: hidden;}
+.tedian ul li{padding:42px 40px;}
+.tedian p{
+    text-align: center;
+    padding:10px 0;
+}
+.tdSize36{font-size: 36px;color:#b6c8d6;}
+.tdSize23{font-size: 23px;color:#b6c8d6;}
+.engineerService{
+    height:826px;
+    background: #ffffff;
+}
+.engineerService_content{
+    margin:0 auto;
+    width:1000px;
+    padding-top:77px;
+}
+.engineerService_title{
+    font-size: 30px;
+    color:#344f64;
+    text-align: center;
+}
+.engineerService_tip{
+    font-size: 22px;
+    color: #94a8b8;
+    text-align: center;
+}
+.grid ul{overflow: hidden;}
+.grid ul li{
+    width:314px;
+    padding:33px 0;
+    border:2px solid #f1f5f9;
+    border-radius: 10px;
+    text-align: center;
+}
+.mt77{
+    margin-top: 77px;
+}
+.mt33{margin-top: 33px;}
+.mt18{margin-top: 18px;}
+.mt35{margin-top: 35px;}
+.ml22{margin-left: 22px}
+.grid-title{font-size: 18px;color:#344f64;}
+.grid-tip{font-size: 18px;color:#94a8b8;}
+.ftsize18{
+    font-size: 18px;
+}
+.gridIconWrap{
+    height:41px;
+    line-height: 41px;
+}
+.detailButton{width:122px;height:41px;line-height:41px;border-radius: 5px;}
+.es-color1{color:#957fff;}
+.es-color2{color:#208aa7;}
+.es-color3{color:#d2556d;}
+.es-color4{color:#ffdc53;}
+.es-color5{color:#61dab1;}
+.es-color6{color:#0489e8;}
+
+.deviceService{
+    height:683px;
+    padding-top: 77px;
+    background: #f3f6fa;
+}
+.deviceServicePC{
+    width:500px;
+    height: 344px;
+    background: url(../images/pc.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.deviceServiceContent{
+    width:1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.dsWrap{
+    width:50%;
+}
+.dsIconWrap{width:42px;height:40px;}
+.mt50{margin-top: 50px;}
+.ftsize24{font-size: 24px}
+.ftsize18{font-size: 18px}
+.dsC1{
+    color:#344f64;
+}
+.dsC2{
+    color:#94a8b8;
+}
+.deviceServiceContent ul li{
+    overflow: hidden;
+}
+.pl20{padding-left: 20px;}
+.pt15{padding-top: 15px;}
+.mt80{margin-top: 80px;}
+.BusinessMap{
+    background: #ffffff;
+    height:639px;
+    padding-top: 90px;
+}
+.BusinessMapContent{
+    width:1000px;
+    margin: 0 auto;
+}
+.BusinessMapContent ul{
+    overflow: hidden;
+}
+.business1 li{padding:0 40px;}
+.business2{padding:0 160px;}
+.business2 li{padding:0 50px;}
+.mapWrap{width:1000px;margin:0 auto;text-align: center;}
+.mt60{
+    margin-top: 60px;
+}
+.smallP_contractWrap{width:1366px; margin: 0 auto;}
+.lianxi{
+    padding-top: 112px;
+    height:298px;
+    background: linear-gradient(to right, #0b2946, #06131a);
+}
+.lianxiList p{color:#ffffff;font-size: 14px; padding-top: 20px;}
+.lianxiList a{color:#dcddde;font-size: 14px;}
+.lianxiList h2{color:#ffffff;font-size: 18px;}
+.pl100{padding-left: 100px}
+.lianxiDetail p{color:#ffffff;font-size: 14px;padding-bottom: 30px;}
+.text-ct{text-align: center;}
+.QRtitle{color:#ffffff;}
